@@ -121,15 +121,70 @@ section.banner-section{
 .development-content img{
     width: 40%;
 }
-/*  */
+/* My Inspiration section */
+
 .inspiration-video{
     margin: 30px 0;
     padding: 40px;
-border: 1px solid rgba(13, 19, 33, 0.2);
+    border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 15px;
 }
 .inspiration-video iframe{
     width: 100%;
     height: 550px;
     border-radius: 15px;
+}
+/* Current Skills seciton */
+.terget-skills-section {
+	padding-top: 40px;
+}
+.skills-boxs{
+    margin-top: 50px;
+    justify-content: space-between;
+    gap: 30px;
+}
+.skill-box {
+	background-color: #004CE80D;
+	padding: 40px 35px;
+	border-radius: 15px;
+}
+.skill-box h3 {
+	margin: 13px 0;
+	font-size: 24px;
+	font-weight: 700;
+    color: #0D1321;
+}
+.skill-box p {
+	color: rgb(13, 19, 33);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-bottom: 18px;
+}
+.skill-box a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+.skill-box:first-child{
+    background-color: #FF4C1E0D;
+}
+.skill-box:last-child{
+    background-color: #FFDF000D;
+}
+/* Skill Next terget */
+.skill-next-terget-section{
+    margin-top: 50px;
+}
+.skill-box-next-content{
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #0D132126;
+    margin-bottom: 30px;
+}
+.skill-box-next-content img{
+    height: 100%;
+}
+.bg-transparent{
+    background: transparent !important;
 }
