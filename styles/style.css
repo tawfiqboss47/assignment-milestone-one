@@ -188,3 +188,70 @@ section.banner-section{
 .bg-transparent{
     background: transparent !important;
 }
+/* NewsLater Section*/
+.newslater-section {
+	background: url(../assets/handshake.jpg) no-repeat center center;
+	padding: 60px 0;
+	background-size: cover;
+	border-radius: 16px;
+    position: relative;
+    z-index: 1;
+}
+.newslater-section::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: -1;
+}
+.newslater-section form {
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+#f-text {
+	padding: 17px 19px;
+	text-align: left;
+	width: 550px;
+	border: none;
+	background: white;
+	border-radius: 9px;
+	font-size: 16px;
+}
+.newslater-section form input.btn {
+	border: none;
+	padding: 13px 30px;
+    background-color: white;
+    cursor: pointer;
+}
+.newslater-section .title-box h2 {
+	color: white;
+}
+.newslater-section .title-box p {
+	color: white;
+	width: 600px;
+	margin: 0 auto 34px auto;
+}
+/* Footer Section */
+footer {
+	padding: 30px 0;
+	background: #0D132108;
+}
+.footer-wrap{
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-c-left p{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-icon ul {
+	gap: 30px;
+}
+.footer-icon ul li{
+    list-style: none;
+}
